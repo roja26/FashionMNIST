@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # API Endpoint (for deployment)
-API_URL = "http://backend:5000/predict" 
+API_URL = "https://fashionmnistbackend.onrender.com/predict" 
 # if only dockerized
 # API_URL = "http://backend:5000/predict"
 # if running locally
