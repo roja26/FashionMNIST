@@ -182,9 +182,10 @@ Used Render to deploy backend and frontend.
 - The deployment strategy for the Fashion MNIST classifier ensures accessibility and ease of use through a Dockerized backend and frontend hosted on Render, a free and simple cloud platform. The entire application is first pushed to GitHub to enable seamless integration with Render. 
 - To ensure smooth communication between the frontend and backend, the API URL in the Streamlit app is updated to match the deployed backend endpoint before committing changes to GitHub, triggering an automatic redeployment on Render. This approach eliminates manual server management while providing a fully functional and publicly accessible web application, making deployment both cost-effective and scalable.
 
-Backend is deployed on - https://fashionmnistbackend.onrender.com
-API Endpoint to Use for predictions - https://fashionmnistbackend.onrender.com/predict
-Frontend is deployed on - https://fashionmnistfrontend.onrender.com
+Links:
+- Backend is deployed on - https://fashionmnistbackend.onrender.com
+- API Endpoint to Use for predictions - https://fashionmnistbackend.onrender.com/predict
+- Frontend is deployed on - https://fashionmnistfrontend.onrender.com
 
 **Note:** Based on using locally, dockerized or deployed version `API_URL` in `frontend/app.py` will change. Options are provided in the file.
 
